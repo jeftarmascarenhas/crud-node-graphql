@@ -10,6 +10,13 @@ type Product {
 type Query {
   allProducts: [Product]
  }
+ input ProductInput {
+   title: String!
+   qty: Int
+ }
+ type Mutation {
+  createProduct(input: ProductInput) : Product
+ }
 `;
 
 const schema = makeExecutableSchema({
