@@ -1,0 +1,42 @@
+{
+  "name": "crud-node-graphql",
+  "version": "1.0.0",
+  "description": "Basic crud with Nodejs and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeftarmascarenhas/crud-node-graphql.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Nodejs",
+    "Express"
+  ],
+  "author": "Jeftar Mascarenhas (https://jeftar.com.br/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeftarmascarenhas/crud-node-graphql/issues"
+  },
+  "homepage": "https://github.com/jeftarmascarenhas/crud-node-graphql#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "graphql-tools": "^4.0.5",
+    "mongoose": "^5.6.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
